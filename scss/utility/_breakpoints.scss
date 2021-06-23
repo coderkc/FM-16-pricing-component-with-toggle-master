@@ -1,0 +1,29 @@
+@media (max-width:1130px) {
+    body {
+        background-position: right -190px top;
+    }
+
+    main {
+        flex-direction: column;
+        width: 320px;
+
+        .card {
+            width: 100%;
+            margin: 0;
+            margin-top: 30px;
+            padding: 24px 0;
+
+            .price {
+                letter-spacing: -4px;
+                font-size: 3.8rem;
+                margin-top: 25px;
+            }
+        }
+
+        .pro {
+            transform: scaleY(1);
+            margin-bottom: 11px;
+        }
+    }
+
+}

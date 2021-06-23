@@ -1,0 +1,12 @@
+body {
+    font: $font;
+    background: $bg;
+    background-image: url("../images/bg-top.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
