@@ -59,10 +59,6 @@ header .choice input {
   cursor: pointer;
   opacity: 0;
 }
-header .choice input:focus-within {
-  outline: 2px solid skyblue;
-  background: red;
-}
 header .choice .toggle-bg {
   width: 60px;
   height: 35px;
