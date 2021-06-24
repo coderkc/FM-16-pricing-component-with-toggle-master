@@ -19,7 +19,6 @@ header {
 
         label {
             color: $pri-accent;
-
         }
         
         input {
@@ -54,7 +53,6 @@ header {
                 0 0 11px $sec-accent;
             transition: all .5s;
         }
-
 
         input[type=checkbox]:checked~.toggle-thumb {
             left: 128px;
