@@ -53,9 +53,15 @@ header .choice input {
   left: 100px;
   width: 60px;
   height: 35px;
-  z-index: 5;
+  z-index: 2;
+  background: transparent;
+  padding: 5px;
   cursor: pointer;
   opacity: 0;
+}
+header .choice input:focus-within {
+  outline: 2px solid skyblue;
+  background: red;
 }
 header .choice .toggle-bg {
   width: 60px;
@@ -102,6 +108,7 @@ main .card {
 }
 main .card .title {
   font-size: 1.2rem;
+  text-transform: capitalize;
 }
 main .card .price {
   color: #494c5f;
@@ -147,19 +154,19 @@ main .card button:hover {
   color: #6d708d;
   border: 2px solid currentColor;
 }
-main .pro {
+main .professional {
   transform: scaleY(1.1);
   background: linear-gradient(135deg, #a3a8f0, #696fdd);
   color: #f6f6fe;
 }
-main .pro .price {
+main .professional .price {
   color: #f6f6fe;
 }
-main .pro button {
+main .professional button {
   background: #f6f6fe;
   color: #6d708d;
 }
-main .pro button:hover {
+main .professional button:hover {
   background: transparent;
   color: #f6f6fe;
   border: 2px solid currentColor;
@@ -212,7 +219,7 @@ footer a:hover {
     font-size: 3.8rem;
     margin-top: 25px;
   }
-  main .pro {
+  main .professional {
     transform: scaleY(1);
     margin-bottom: 11px;
   }

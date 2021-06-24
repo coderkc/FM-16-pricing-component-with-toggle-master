@@ -19,6 +19,7 @@ main {
 
         .title {
             font-size: 1.2rem;
+            text-transform: capitalize;
         }
 
         .price {
@@ -74,7 +75,7 @@ main {
         }
     }
 
-    .pro {
+    .professional {
         transform: scaleY(1.1);
         background: $linear;
         color: $pri;
