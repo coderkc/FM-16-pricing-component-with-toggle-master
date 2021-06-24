@@ -31,12 +31,7 @@ header {
             background: transparent;
             padding: 5px;
             cursor: pointer;
-         opacity: 0;
-
-            &:focus-within {
-                outline: 2px solid skyblue;
-                background: red;
-            }
+            opacity: 0;
         }
 
         .toggle-bg {
